@@ -10,9 +10,7 @@
 <body>
     <div class="container">
         <header class="header">
-            <div>
-                <h1>Dashbord</h1>
-            </div>
+            <h1>Dashbord</h1>
             <div>
                 <div class="filter">
                     <label for="filter">Filter:</label>
@@ -60,7 +58,9 @@
                         <li><div><span class="circle"></span>Rank #11-100</div><div><div class="number">47</div><div class="error"><span>13</span><div class="triangle"></div></div></div></li>
                         <li><div><span class="circle"></span>Non in top 100</div><div><div class="number">3</div><div class="error"><span>14</span><div class="triangle"></div></div></div></li>
                     </ul>
-                    <img src="img/diagram-1.svg" alt="diagram-1">
+                    <div class="chart">
+                        <canvas id="myChart"></canvas>
+                    </div>
                 </div>
                 <div class="block">
                     <h5>Last Changes</h5>
@@ -78,10 +78,82 @@
                         <li><div><span class="circle"></span>All traffic:</div><div><div class="number">192 561</div><div class="success"><span>2%</span><div class="triangle"></div></div></div></li>
                         <li><div><span class="circle"></span>Organic traffic:</div><div><div class="number">121 003</div><div class="error"><span>3%</span><div class="triangle"></div></div></div></li>
                     </ul>
-                    <img src="img/diagram-2.svg" alt="diagram-2">
+                    <div class="chart">
+                        <canvas id="myChart2"></canvas>
+                    </div>
                 </div>
             </section>
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+
+        var ctx2 = document.getElementById('myChart2').getContext('2d');
+
+        var lineChartData = {
+            labels: ['', '', '', '', '', '', '', '', '', ''],
+            datasets: [
+                {
+                    data: [3, 5, 10, 12, 10, 8, 5, 9, 15, 14],
+                    backgroundColor: ['rgba(165,191,255, 0.5)'],
+                    borderColor: ['#4D81FF'],
+                    borderWidth: 2
+                }, {
+                    data: [3, 4, 7, 5, 8, 10, 12, 11, 10, 8],
+                    backgroundColor: ['rgba(165,191,255, 0.8)'],
+                    borderColor: ['#4D81FF'],
+                    borderWidth: 2
+                }
+            ]
+        };
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: lineChartData,
+            options: {
+                legend: {
+                    display: false,
+                },
+                scales: {
+                    xAxes: [{
+                        display: false,
+                        ticks: {
+                            display: false
+                        }
+                    }],
+                    yAxes: [{
+                        display: false,
+                    }]
+                },
+                elements: {
+                    point: {
+                        radius: 0
+                    }
+                }
+            }
+        });
+        var myChart = new Chart(ctx2, {
+            type: 'line',
+            data: lineChartData,
+            options: {
+                legend: {
+                    display: false,
+                },
+                scales: {
+                    xAxes: [{
+                        display: false,
+                    }],
+                    yAxes: [{
+                        display: false,
+                    }]
+                },
+                elements: {
+                    point: {
+                        radius: 0
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 </html>

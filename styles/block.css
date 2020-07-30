@@ -52,147 +52,147 @@
 }
 
 .block ul li:nth-of-type(1) .circle:nth-of-type(1) {
-  border-color: rgba(0, 126, 206, 0.5);
+  border-color: rgba(0, 63, 251, 0.5);
 }
 
 .block ul li:nth-of-type(1) .circle:nth-of-type(2) {
-  border-color: rgba(0, 16, 211, 0.5);
+  border-color: rgba(0, 53, 223, 0.5);
 }
 
 .block ul li:nth-of-type(1) .circle:nth-of-type(3) {
-  border-color: rgba(0, 81, 206, 0.5);
+  border-color: rgba(0, 200, 223, 0.5);
 }
 
 .block ul li:nth-of-type(1) .circle:nth-of-type(4) {
-  border-color: rgba(0, 94, 216, 0.5);
+  border-color: rgba(0, 80, 218, 0.5);
 }
 
 .block ul li:nth-of-type(1) .circle:nth-of-type(5) {
-  border-color: rgba(0, 58, 254, 0.5);
+  border-color: rgba(0, 136, 215, 0.5);
 }
 
 .block ul li:nth-of-type(1) .circle:nth-of-type(6) {
-  border-color: rgba(0, 67, 254, 0.5);
+  border-color: rgba(0, 98, 252, 0.5);
 }
 
 .block ul li:nth-of-type(2) .circle:nth-of-type(1) {
-  border-color: rgba(0, 68, 218, 0.5);
+  border-color: rgba(0, 181, 243, 0.5);
 }
 
 .block ul li:nth-of-type(2) .circle:nth-of-type(2) {
-  border-color: rgba(0, 76, 219, 0.5);
+  border-color: rgba(0, 115, 209, 0.5);
 }
 
 .block ul li:nth-of-type(2) .circle:nth-of-type(3) {
-  border-color: rgba(0, 200, 254, 0.5);
+  border-color: rgba(0, 130, 209, 0.5);
 }
 
 .block ul li:nth-of-type(2) .circle:nth-of-type(4) {
-  border-color: rgba(0, 215, 209, 0.5);
+  border-color: rgba(0, 117, 208, 0.5);
 }
 
 .block ul li:nth-of-type(2) .circle:nth-of-type(5) {
-  border-color: rgba(0, 147, 234, 0.5);
+  border-color: rgba(0, 34, 212, 0.5);
 }
 
 .block ul li:nth-of-type(2) .circle:nth-of-type(6) {
-  border-color: rgba(0, 166, 226, 0.5);
+  border-color: rgba(0, 26, 217, 0.5);
 }
 
 .block ul li:nth-of-type(3) .circle:nth-of-type(1) {
-  border-color: rgba(0, 15, 207, 0.5);
+  border-color: rgba(0, 114, 220, 0.5);
 }
 
 .block ul li:nth-of-type(3) .circle:nth-of-type(2) {
-  border-color: rgba(0, 55, 248, 0.5);
+  border-color: rgba(0, 208, 215, 0.5);
 }
 
 .block ul li:nth-of-type(3) .circle:nth-of-type(3) {
-  border-color: rgba(0, 36, 249, 0.5);
+  border-color: rgba(0, 145, 255, 0.5);
 }
 
 .block ul li:nth-of-type(3) .circle:nth-of-type(4) {
-  border-color: rgba(0, 157, 224, 0.5);
+  border-color: rgba(0, 58, 213, 0.5);
 }
 
 .block ul li:nth-of-type(3) .circle:nth-of-type(5) {
-  border-color: rgba(0, 38, 234, 0.5);
+  border-color: rgba(0, 141, 247, 0.5);
 }
 
 .block ul li:nth-of-type(3) .circle:nth-of-type(6) {
-  border-color: rgba(0, 33, 236, 0.5);
+  border-color: rgba(0, 169, 248, 0.5);
 }
 
 .block ul li:nth-of-type(4) .circle:nth-of-type(1) {
-  border-color: rgba(0, 42, 220, 0.5);
+  border-color: rgba(0, 133, 231, 0.5);
 }
 
 .block ul li:nth-of-type(4) .circle:nth-of-type(2) {
-  border-color: rgba(0, 110, 255, 0.5);
+  border-color: rgba(0, 218, 217, 0.5);
 }
 
 .block ul li:nth-of-type(4) .circle:nth-of-type(3) {
-  border-color: rgba(0, 170, 251, 0.5);
+  border-color: rgba(0, 14, 212, 0.5);
 }
 
 .block ul li:nth-of-type(4) .circle:nth-of-type(4) {
-  border-color: rgba(0, 197, 213, 0.5);
+  border-color: rgba(0, 105, 224, 0.5);
 }
 
 .block ul li:nth-of-type(4) .circle:nth-of-type(5) {
-  border-color: rgba(0, 174, 245, 0.5);
+  border-color: rgba(0, 85, 253, 0.5);
 }
 
 .block ul li:nth-of-type(4) .circle:nth-of-type(6) {
-  border-color: rgba(0, 54, 233, 0.5);
+  border-color: rgba(0, 115, 228, 0.5);
 }
 
 .block ul li:nth-of-type(5) .circle:nth-of-type(1) {
-  border-color: rgba(0, 16, 218, 0.5);
+  border-color: rgba(0, 147, 220, 0.5);
 }
 
 .block ul li:nth-of-type(5) .circle:nth-of-type(2) {
-  border-color: rgba(0, 58, 211, 0.5);
+  border-color: rgba(0, 175, 235, 0.5);
 }
 
 .block ul li:nth-of-type(5) .circle:nth-of-type(3) {
-  border-color: rgba(0, 36, 241, 0.5);
+  border-color: rgba(0, 191, 255, 0.5);
 }
 
 .block ul li:nth-of-type(5) .circle:nth-of-type(4) {
-  border-color: rgba(0, 19, 215, 0.5);
+  border-color: rgba(0, 184, 221, 0.5);
 }
 
 .block ul li:nth-of-type(5) .circle:nth-of-type(5) {
-  border-color: rgba(0, 14, 235, 0.5);
+  border-color: rgba(0, 37, 209, 0.5);
 }
 
 .block ul li:nth-of-type(5) .circle:nth-of-type(6) {
-  border-color: rgba(0, 92, 212, 0.5);
+  border-color: rgba(0, 110, 247, 0.5);
 }
 
 .block ul li:nth-of-type(6) .circle:nth-of-type(1) {
-  border-color: rgba(0, 147, 216, 0.5);
+  border-color: rgba(0, 124, 237, 0.5);
 }
 
 .block ul li:nth-of-type(6) .circle:nth-of-type(2) {
-  border-color: rgba(0, 201, 206, 0.5);
+  border-color: rgba(0, 50, 225, 0.5);
 }
 
 .block ul li:nth-of-type(6) .circle:nth-of-type(3) {
-  border-color: rgba(0, 210, 252, 0.5);
+  border-color: rgba(0, 23, 253, 0.5);
 }
 
 .block ul li:nth-of-type(6) .circle:nth-of-type(4) {
-  border-color: rgba(0, 216, 233, 0.5);
+  border-color: rgba(0, 39, 217, 0.5);
 }
 
 .block ul li:nth-of-type(6) .circle:nth-of-type(5) {
-  border-color: rgba(0, 34, 244, 0.5);
+  border-color: rgba(0, 10, 224, 0.5);
 }
 
 .block ul li:nth-of-type(6) .circle:nth-of-type(6) {
-  border-color: rgba(0, 3, 225, 0.5);
+  border-color: rgba(0, 90, 255, 0.5);
 }
 
 .block:first-of-type {
@@ -254,7 +254,7 @@
 }
 
 .block:nth-of-type(2) ul li:last-of-type .circle {
-  border-color: rgba(230, 0, 0, 0.5);
+  border-color: rgba(232, 0, 0, 0.5);
 }
 
 .block:nth-of-type(2) ul li div {

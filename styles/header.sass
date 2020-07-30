@@ -1,0 +1,63 @@
+.filter
+    position: relative
+    margin-right: 40px
+    &::after
+        pointer-events: none
+        content: ''
+        display: block
+        position: absolute
+        top: 45%
+        right: 0
+        border-style: solid
+        border-width: 4px 3.5px 0 3.5px
+        border-color: #aeaeae transparent transparent transparent
+        z-index: 1
+    label
+        line-height: 18px
+        letter-spacing: 0.01em
+        color: #6A707E
+        margin-right: 5px
+    select
+        display: block
+        width: 110px
+        appearance: none
+        background: none
+        line-height: 18px
+        letter-spacing: 0.01em
+        color: #6A707E
+        margin: 0
+        border: 0
+        outline: 0
+        color: #0148F5
+
+.button
+    font-family: 'Poppins', sans-serif
+    background: #0148F5
+    box-shadow: 0px 4px 10px rgba(0, 75, 255, 0.24)
+    border-radius: 4px
+    color: #ffffff
+    width: 35px
+    height: 35px
+    outline: 0
+    border: 0
+    padding: 5px
+    line-height: 30px
+    font-size: 30px
+    transition-duration: 0.2s
+    &:hover
+        background: #0059ff
+
+.header
+    display: flex
+    justify-content: space-between
+    margin-bottom: 3%
+    h1
+        font-weight: 500
+        font-size: 24px
+        line-height: 36px
+        letter-spacing: 0.01em
+        color: #192A3E
+        margin: 0
+    div
+        display: flex
+        align-items: center

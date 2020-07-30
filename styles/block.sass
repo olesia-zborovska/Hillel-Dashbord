@@ -1,0 +1,105 @@
+.block
+    border-right: 1px solid #EBEFF2
+    position: relative
+    height: 195px
+    min-width: 195px
+    .chart
+        canvas
+            max-height: 70px
+            width: 250px
+        position: absolute
+        bottom: 0
+    h5
+        margin: 0
+        margin-bottom: 32px
+        font-weight: 500
+        font-size: 11px
+        line-height: 16px
+        letter-spacing: 0.01em
+        color: #818E9B
+    div
+        display: inline-flex
+    ul
+        margin: 0
+        padding: 0
+        list-style: none
+        max-width: 200px
+        li
+            display: flex
+            align-items: center
+            justify-content: space-between
+            @for $i from 1 through 6
+                &:nth-of-type(#{$i})
+                    @for $i from 1 through 6
+                        .circle
+                            &:nth-of-type(#{$i})
+                                border-color: rgba(0, random(220), (random(50) + 205), 0.5)
+    &:first-of-type
+        padding-right: 45px
+        h5
+            margin-bottom: 16px
+        .block_first
+            &:not(.triangle)
+                display: flex
+                align-items: baseline
+            .error
+                font-size: 15px
+                font-weight: 500
+            .success
+                font-weight: 500
+                font-size: 56px
+                margin-right: 15px
+                flex-direction: row
+        ul
+            line-height: 180%
+            li
+                &:first-of-type
+                    .text
+                        color: #DD4C3A
+                &:nth-of-type(2)
+                    .text
+                        color: #f99d1c
+                &:nth-of-type(3)
+                    .text
+                        color: #109cf1
+    &:nth-of-type(2)
+        ul
+            margin-bottom: 3%
+            li
+                font-size: 12px
+                line-height: 22px
+                color: #334D6E
+                &:last-of-type
+                    .circle
+                        border-color: rgba((random(30) + 225), 0, 0, 0.5)
+                div
+                    display: flex
+                    align-items: center
+    &:nth-of-type(3)
+        h6
+            font-size: 10px
+            line-height: 180%
+            font-weight: normal
+            color: #707683
+            margin: 0
+            margin-bottom: 5px
+        li
+            line-height: 22px
+            color: #334D6E
+            display: list-item
+            .number
+                margin: 0
+            &::before
+                content: '●'
+                color: #F18F1C
+                margin-right: 5px
+            &:last-of-type
+                &::before
+                    content: '●'
+                    color: #27BE88
+                    margin-right: 5px
+    &:nth-of-type(4)
+        border: none
+        div
+            display: flex
+            align-items: center
